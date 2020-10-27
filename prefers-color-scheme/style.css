@@ -1,0 +1,24 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000;
+    --heading-color: #fff;
+    --text-color: #e3e3e3;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #f1f1f1;
+    --heading-color: #131313;
+    --text-color: #292929;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--text-color);
+}
+
+h1 {
+  color: var(--heading-color);
+}
